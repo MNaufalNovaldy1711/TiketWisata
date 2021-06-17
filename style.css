@@ -1,0 +1,260 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: sans-serif;
+	background: url(gmbr/bgbg.jpg);
+	background-attachment: fixed;
+}
+
+header h1{
+	font-family: elephant;
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden
+}
+
+header{
+	background: url(gmbr/bg1.jpg);
+	color: #ffcc00;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 7px solid #ffcc00
+}
+
+header	#branding{
+	float: left;	
+}
+
+header	#branding h1{
+	margin: 0;		
+}
+
+header	nav{
+	float: right;
+	margin-top: 10px
+}
+
+header	li{
+	float: left;
+	display: inline;
+	padding: 0 2px 0 20px;
+}
+
+header	a{
+	color: #ffcc00;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header #branding, header .active a{
+	color: #ffcc00;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #1b262c;
+	font-weight: bold;
+}
+
+#showcase{
+	min-height: 400px;
+	background: url(img/tmpln22.jpg)  0px -50px;
+	text-align: center;
+	color: #ffcc00;
+	border-bottom: 7px solid #ffcc00
+}
+
+#showcase h1{
+	margin-top: 120px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size: 20px;
+	color: #f8b400;
+}
+
+#newsletter{
+	padding: 5px;
+	color: #ffcc00;
+	background: linear-gradient(to right,#1b262c, #000000, #1b262c);
+}
+
+#newsletter h1{
+	float: left;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 20px
+}
+
+#newsletter input[type="Email"]{
+	padding: 1px;
+	height: 25px;
+	width: 200px;
+}
+
+.buttonsubs{
+	height: 30px;
+	background-color: #ffcc00;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+#boxes{
+	margin-top: 20px;
+	color: #ffcc00;
+}
+
+.boxes{
+	float: left;
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+	font-size: 20px;
+
+}
+
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffcc00;
+	background: linear-gradient(to right,#000000, #00a8cc);
+	text-align: center;
+
+}
+
+#logo1 div{
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+#price1 h1{
+	margin-top: 70px;
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+
+}
+
+#contact1 h1{
+	margin-top: 70px;
+	font-size: 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+#contact1 p{
+	margin-top: 40px;
+	font-size: 25px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+#contact1 li{
+	margin-top: 20px;
+	font-size: 25px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+
+#contact2 h1{
+	margin-top: 90px;
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+
+#payment1 h1{
+	margin-top: 70px;
+	font-size: 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+#payment1 p{
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;	
+}
+#pemesanan1 h1{
+	margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+#pemesanan1 p{
+	margin-top: 15px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;
+}
+
+#boxes1 h1{
+	margin-top: 50px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #ffcc00;
+	font-family: align;	
+}
+
+#boxes1 p{
+	margin-top: 50px;
+	font-size: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #beebe9;
+	font-family: align;	
+}
+
+/*Media Query*/
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+.slider {	
+	width: 45%;
+    height: 300px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 8px solid white;
+	box-shadow: 0px 0px 2px 2px #ccc;
+}
